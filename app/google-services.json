@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1085151572455",
+    "firebase_url": "https://gurungaji-gg.firebaseio.com",
+    "project_id": "gurungaji-gg",
+    "storage_bucket": "gurungaji-gg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085151572455:android:14e4986c8ce2a531",
+        "android_client_info": {
+          "package_name": "com.example.suhemi.gurungaji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085151572455-gqppbls6hkh15rq299oeoeecukji6lur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suhemi.gurungaji",
+            "certificate_hash": "557c7f5a5f6bfdd6fbba2bb634e4b3bf382966c4"
+          }
+        },
+        {
+          "client_id": "1085151572455-2370m58td7a6l333hkcn5jqosaet3063.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAnC28fljkMAiZ_XfXOiZviFGvGGWD7MQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085151572455-2370m58td7a6l333hkcn5jqosaet3063.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
