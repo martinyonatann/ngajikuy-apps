@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ngaji-Kuy</string>
+    <string-array name="lokasi">
+        <item>Pilih</item>
+        <item>Kedaton</item>
+        <item>Rajabasa</item>
+        <item>Gunung Sulah</item>
+    </string-array>
+
+    <string name="senin">Jam 16.00</string>
+    <string name="selasa">Jam 16.00</string>
+    <string name="rabu">Jam 16.00</string>
+    <string name="kamis">Jam 16.00</string>
+    <string name="dialog_title">Pilih Jadwal Mengaji</string>
+    <string name="ok_label">OK</string>
+    <string name="dismiss_label">Dismiss</string>
+    <string name="clear_all_label">Hapus Semua</string>
+
+    <string-array name="ngaji_item">
+        <item>Senin Jam 16.00 WIB</item>
+        <item>Selasa Jam 16.00 WIB</item>
+        <item>Rabu Jam 16.00 WIB</item>
+        <item>Ksmis Jam 16.00 WIB</item>
+    </string-array>
+
+</resources>

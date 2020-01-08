@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#40e0d0">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textgb"
+                android:textColor="#000000"
+                android:text="Gak Ngaji Gak Keren"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="120dp"
+                android:background="@drawable/shape6">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gambardiubah"
+                    android:background="@drawable/profill"
+                    android:padding="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Nama Lengkap : "
+                android:id="@+id/nameprofile"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp" />
+
+          <!--  <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Suhemi Yanto"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="15dp"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Jenis Kelamin"
+                android:id="@+id/jkprofile"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp" />
+
+            <!--<EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ikhwan"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="15dp"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="No Handphone"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:id="@+id/hpprofile"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp" />
+
+            <!--<EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="082279586217"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="15dp"/>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Alamat"
+                android:textStyle="bold"
+                android:id="@+id/alamatprofile"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp" />
+
+            <!--<EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kedaton"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="15dp"/>-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Email"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/emailprofile"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp" />
+
+           <!-- <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="suhemiyanto009@gmail.com"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="15dp"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/profileedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/shape"
+                        android:gravity="center"
+                        android:text="Ubah Biodata"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/pwedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/shape"
+                        android:gravity="center"
+                        android:text="Ubah Password"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

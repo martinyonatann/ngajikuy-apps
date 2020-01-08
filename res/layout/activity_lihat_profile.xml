@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Nama Lengkap"
+        android:id="@+id/edittextname"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp" />
+
+    <!--  <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Suhemi Yanto"
+          android:layout_marginLeft="13dp"
+          android:layout_marginRight="15dp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Jenis Kelamin"
+        android:id="@+id/edittextjk"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp" />
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ikhwan"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="15dp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="No Handphone"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/edittextnohp"
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp" />
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="082279586217"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="15dp"/>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Alamat"
+        android:textStyle="bold"
+        android:id="@+id/edittextalamat"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="15dp" />
+
+    <!--<EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kedaton"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="15dp"/>-->
+
+
+
+
+    <!-- <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="suhemiyanto009@gmail.com"
+         android:layout_marginLeft="13dp"
+         android:layout_marginRight="15dp"/>-->
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
